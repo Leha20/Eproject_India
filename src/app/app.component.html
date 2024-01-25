@@ -1,0 +1,14 @@
+<button class="scrollToTop" *ngIf="isShow" (click)="gotoTop()">
+  <i class="fa fa-angle-up"></i>
+</button>
+<!-- <ngx-spinner
+  bdColor="rgba(255, 255, 255)"
+  size="medium"
+  color="#fff"
+  type="ball-scale-multiple"
+>
+  <img src="https://icons8.com/preloaders/preloaders/1474/Walk.gif">
+</ngx-spinner> -->
+<app-header></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
